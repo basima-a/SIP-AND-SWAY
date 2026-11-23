@@ -1,0 +1,127 @@
+header{
+    background-color: #6B8F71;
+    padding: 20px;
+}
+header h1{
+    color: #F2E8CF;
+    margin: 0 0 10px;
+}
+
+nav a{
+    color: #FDFCF7;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #FFE8A3;
+    text-decoration: underline;
+}
+.bumbum{
+    text-align: center;
+    padding: 80px 20px;
+}
+.bumbum h2{
+    font-size: medium;
+    margin: 0 0 10px;
+}
+.btn{
+    display: inline-block;
+    background-color: #F2E8CF;
+    border: 2px solid #6B8F71;
+    color: #2F3E34;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #6B8F71;
+    color: white;
+}
+.filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.filters button{
+    background-color: #F2E8CF;
+    color: #2F3E34;
+    border: 2px solid #6B8F71;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.filters button:hover{
+    background-color: #6B8F71;
+    color: white;
+}
+.menu {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 950px;
+    margin: 30px auto 0;
+}
+
+.card {
+    background-color: #F2E8CF;
+    border: 2px solid #6B8F71;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+}
+.contact{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.form-box{
+    width: 450px;
+    margin: 20px auto 0;
+    text-align: left;
+}
+.box{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #6B8F71;
+    border-radius: 8px;
+    background-color: #FDFCF7;
+}
+
+.send{
+    background-color: #6B8F71;
+    color: #FDFCF7;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about{
+    padding: 60px 20px;
+    text-align: left;
+}
+.footer{
+    background-color: #6B8F71;
+    color:#FDFCF7;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    background-color: #e3ebdd;
+    color: #2F3E34;
+}
+.PRICE {
+    font-weight: bold;
+    color: #6B8F71;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Sip & Sway</title>
+    <link rel="stylesheet" href="style.css"></head>
+    <body>
+        <header>
+            <h1>SIP & SWAY</h1>
+            <nav>
+                <a href="#home">HOME</a>
+                <a href="#menu">MENU</a>
+                <a href="#contact">CONTACT</a>
+                <a href="#about">ABOUT</a>
+            </nav>
+        </header>
+        <section id="home" class="bumbum">
+            <h2>Chasing latte art..</h2>
+            <p>Modern European Brunch & Viennoiserie, laminated and baked in-house daily.</p>
+            <a href="#menu" class="btn">View menu</a>
+        </section>
+        <section id="menu" class="menu">
+            <h2>TABLE & COUNTER</h2>
+            <div class="filters">
+                <button id="allbtn">All</button>
+                <button id="viennbtn">Viennoiserie</button>
+                <button id="brunchbtn">Brunch</button>
+                <button id="drinksbtn">Drinks</button>
+            </div>
+            <div class="cards">
+                <div class="card" id="croissant">
+                    <h3>Butter Croissant</h3>
+                    <p>Flaky, laminated and baked fresh morning.</p>
+                    <div class="PRICE">150 rs</div>
+                    </div>
+                    <div class="card" id="painChoc">
+                        <h3>Pain au Chocolat</h3>
+                        <p>Buttery pastry layers with dark chocolate inside.</p>
+                        <div class="PRICE">180 rs</div>
+                    </div>
+                    <div class="card" id="danish">
+                        <h3>Almond Danish</h3>
+                        <p>Golden pastry with almond cream and toasted flakes</p>
+                        <div class="PRICE">200 rs</div>
+                    </div>
+                    <div class="card" id="benedict">
+                        <h3>Eggs Benedict</h3>
+                        <p>Poached eggs on brioche with hollandaise sauce</p>
+                        <div class="PRICE">320 rs</div>
+                    </div>
+                    <div class="card" id="avocado">
+                        <h3>Avocado Sourdough</h3>
+                        <p>Smashed avocado, cherry tomatoes and a soft egg.</p>
+                        <div class="PRICE">280 rs</div>
+                    </div>
+                    <div class="card" id="matcha">
+                        <h3>Matcha Latte</h3>
+                        <p>Smooth matcha with steamed milk.</p>
+                        <div class="PRICE">220 rs</div>
+                    </div>
+            </div>
+        </section>
+
+        <section id ="contact" class="contact">
+            <h2>Contact US</h2>
+            <div class="form-box">
+                <label>Enter Your NAME: </label>
+                <input type="text" id="nameinput" class="box"><br><br>
+
+                <label>Phone number: </label>
+                <input type="text" id="phoneinput" class="box"><br><br>
+
+                <label>Message.. </label>
+                <input type="text" id="msginput" class="box"><br><br>
+
+                <button class="send" id="sendbtn">Send a message</button>
+                <p id="result"></p><br>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>About US</h2>
+            <p>Welcome to SIP & SWAY - a quiet corner designed for soft moments,<br>warm conversations,
+                and unhurried mornings.Born from a love for <br>ceremonial japanese matcha and classic European 
+                baking,<br>our space brings together two timeless rituals under one roof.</p>
+            <p>OPEN daily: 8AM to 9 PM</p>
+        </section>
+        <footer class="footer">
+            <p>© 2026 SIP & SWAY.All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
